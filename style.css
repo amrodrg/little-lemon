@@ -1,0 +1,115 @@
+body {
+    background-color: #EDEFEE;
+    font-family: 'Trirong';
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: auto;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: auto;
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1rem;
+    }
+}
+
+header > img {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+nav {
+    background-color: #495e57;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-weight: bolder;
+}
+
+li a {
+    margin: 0 1vw;
+    color:rgb(190, 190, 190);
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+a:hover {
+    color:aliceblue
+}
+
+section {
+    display: flex;
+    margin: 1rem 0;
+}
+
+article {
+    flex: 1;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #f2dbb9;
+    text-align: center;
+}
+
+article:hover {
+    box-shadow: 4px 4px 4px gray,
+                -4px -4px 8px gray;
+    cursor:pointer;
+}
+
+.promotion article {
+    background-image: url("grill-fire-meat.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+    color:aliceblue;
+    transition: all .4s ease;
+}
+
+.promotion article:hover {
+    transform: scale(1.02);
+}
+
+.posts img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#middle_article {
+    margin: 0 1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer div p {
+    text-align: end;
+    border-top: 2px solid;
+}
